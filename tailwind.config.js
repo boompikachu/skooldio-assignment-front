@@ -6,6 +6,12 @@ module.exports = {
       fontFamily: {
         body: "Prompt",
       },
+      colors: {
+        grapefruit: "#ff5a5a",
+        warmgray: "#9b9b9b",
+        greenishteal: "#2ecc71",
+        mint: "#48b6a3"
+      }
     },
   },
   variants: {

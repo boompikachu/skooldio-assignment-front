@@ -1,5 +1,11 @@
+import Card from "./components/Card.js"
+
 const App = () => {
-  return <div>Test</div>
+  return (
+    <div>
+      <Card />
+    </div>
+  )
 }
 
 export default App
