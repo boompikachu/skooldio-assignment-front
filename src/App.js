@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div>
       {data?.map((info) => (
-        <Card data={info} />
+        <Card data={info} key={info.id} />
       ))}
     </div>
   )

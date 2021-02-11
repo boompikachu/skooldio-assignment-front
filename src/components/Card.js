@@ -5,10 +5,11 @@ import Score from "./Score.js"
 import ScoreDetails from "./ScoreDetails.js"
 import Share from "./../assets/share.svg"
 
-const Card = () => {
+const Card = (props) => {
+    const {data} = props
   return (
     <div className="flex flex-col font-body divide-y p-5 text-body w-96 shadow border rounded">
-      <Header />
+      <Header name={data.name} faculty={data.faculty.name} university={data.faculty.university.name}/>
       <div>
         <OpenRound />
         <AdmissionRound />
